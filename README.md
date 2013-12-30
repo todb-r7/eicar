@@ -19,7 +19,7 @@ load. I know, it's a little backwards.
 
 Code exercising this might look like this:
 
-````
+````ruby
 #!/usr/bin/env ruby
 
 begin
