@@ -23,6 +23,15 @@ module EICAR
     end
   end
 
+  def self.antivirus_active?
+    begin
+      self.test_string
+    rescue EICAR::EICARReadError
+      return true
+    end
+    return false
+  end
+
 end
 
 EICAR.test_string
