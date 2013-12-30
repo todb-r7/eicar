@@ -1,4 +1,4 @@
-eicar
+EICAR
 =====
 
 EICAR test string for anti-virus functionality detection
