@@ -26,3 +26,4 @@ module EICAR
 end
 
 EICAR.test_string
+
