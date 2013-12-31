@@ -2,7 +2,8 @@ EICAR
 =====
 
 The EICAR gem provides the [EICAR test
-file](https://en.wikipedia.org/wiki/EICAR_test_file) as (bin/eicar.com),
+file](https://en.wikipedia.org/wiki/EICAR_test_file) as
+[bin/eicar.com][],
 used to test anti-virus detection functionality.
 
 Usage
@@ -46,7 +47,7 @@ Expected Results
 ================
 
 Below is a screenshot from Microsoft Security Essentials successfully
-detecting (bin/eicar.com) and placing it in quarantine.
+detecting [bin/eicar.com][] and placing it in quarantine.
 
 ![MSE Screenshot](images/eicar-success-mse.png)
 
