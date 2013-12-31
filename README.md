@@ -1,7 +1,10 @@
 EICAR
 =====
 
-EICAR test string for anti-virus functionality detection
+The EICAR gem provides the [EICAR test
+file](https://en.wikipedia.org/wiki/EICAR_test_file) as
+[bin/eicar.com](bin/eicar.com),
+used to test anti-virus detection functionality.
 
 Usage
 =====
@@ -28,6 +31,25 @@ rescue EICAR::EICARReadError
   @antivirus_active = true
 end
 ````
+
+If A/V is later enabled, an application can monitor its status. Here's a
+simplistic example:
+
+````ruby
+until EICAR.antivirus_active? do
+  sleep 1
+  puts "A/V hasn't caught EICAR yet"
+end
+puts "A/V is active in #{ENV['GEM_HOME']}."
+````
+
+Expected Results
+================
+
+Below is a screenshot from Microsoft Security Essentials successfully
+detecting [bin/eicar.com](bin/eicar.com) and placing it in quarantine.
+
+![MSE Screenshot](images/eicar-success-mse.png)
 
 TODO
 ====
