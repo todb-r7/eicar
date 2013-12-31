@@ -45,7 +45,8 @@ puts "A/V is active in #{ENV['GEM_HOME']}."
 Expected Results
 ================
 
-## Microsoft Security Essentials
+Below is a screenshot from Microsoft Security Essentials successfully
+detecting [bin/eicar.com] and placing it in quarantine.
 
 ![MSE Screenshot](images/eicar-success-mse.png)
 
