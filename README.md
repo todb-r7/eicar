@@ -29,6 +29,13 @@ rescue EICAR::EICARReadError
 end
 ````
 
+Expected Results
+================
+
+## Microsoft Security Essentials
+
+![MSE Screenshot](images/eicar-success-mse.png)
+
 TODO
 ====
 
