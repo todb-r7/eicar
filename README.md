@@ -43,6 +43,18 @@ end
 puts "A/V is active in #{ENV['GEM_HOME']}."
 ````
 
+You can also write the EICAR test file to any given target directory
+with this gem. For example:
+
+````ruby
+EICAR.create # Creates the EICAR test file in the default GEM_HOME location
+EICAR.create "/tmp/foo.exe" # Writes to an arbitrary path
+````
+
+This can be useful for spot-checking A/V coverage on a per directory or
+per filesystem basis (eg, across SMB shares).
+
+
 Expected Results
 ================
 
