@@ -7,7 +7,7 @@ module EICAR
   # string. Antivirus should /not/ pick this up, ever, since it's out of
   # spec to try to decode it.
   #
-  ROT13_DOWNCASE_EICAR = "k5b!c%@nc[4cmk54(c^)7pp)7}$rvpne-fgnaqneq-nagvivehf-grfg-svyr!$u+u*"
+  ROT13_DOWNCASE_EICAR = "k5b!c%@nc[4\\cmk54(c^)7pp)7}$rvpne-fgnaqneq-nagvivehf-grfg-svyr!$u+u*"
 
   # @return [String] The library/gem version.
   #
