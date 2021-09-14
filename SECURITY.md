@@ -2,10 +2,7 @@
 
 ## Supported Versions
 
-Only version 0.0.6 is supported.
-
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Only version 0.0.6 is supported. Version 0.0.7 might be released some day.
 
 | Version | Supported          |
 | ------- | ------------------ |
