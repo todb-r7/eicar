@@ -2,7 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: https://github.com/todb-r7/eicar
 
 Files: *
-Copyright: 2013-2014, Rapid7 Inc.
+Copyright: 2013, Rapid7 Inc.
 License: BSD-3-clause
 
 # The EICAR gem is provided under the 3-clause BSD license provided
